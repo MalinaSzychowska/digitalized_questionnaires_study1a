@@ -109,7 +109,7 @@ server <- function(input, output, session) {
     out_olf <- input$mat_olf 
     df_tmp <- data.frame(fp, age, gender, out_olf)
     
-    write.csv(df_tmp, file = paste(fp,".csv"))
+    write.csv(df_tmp, file = paste(fp,"_olfaction.csv"))
     
     print(input)
     

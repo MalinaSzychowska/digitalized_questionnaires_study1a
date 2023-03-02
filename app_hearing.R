@@ -209,7 +209,7 @@ server <- function(input, output, session) {
                          
     df_tmp <- data.frame(fp, out_aud)
     
-    write.csv(df_tmp, file = paste(fp,".csv"))
+    write.csv(df_tmp, file = paste(fp,"_hearing.csv"))
     
     print(out_aud)
   

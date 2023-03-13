@@ -52,7 +52,7 @@ olf_ids <- rep("mat_olf", length(olf_option))
 df <- data.frame(question = c(dem_question, 
                               olf_questions),
                  option = c(dem_option, 
-                            olf_options), 
+                            olf_option), 
                  input_type = c(dem_type, 
                                 olf_type), 
                  input_id = c(dem_ids, 
